@@ -1,1 +1,54 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white
+}
 
+header {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: wheat;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+#solutionCard {
+    margin-top: 20px;
+}
+
+button {
+    background-color: #333;
+    color: wheat;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+button:hover {
+    background-color: grey;
+}
+
+.search-btn {
+    border-radius: 50%;
+    background-color: wheat;
+}
+
+.fa-search {
+    color: #000;
+}
